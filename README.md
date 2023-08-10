@@ -1,3 +1,6 @@
+### Simulation1: System Identification and Analysis
+
+```markdown
 # Simulation1: System Identification and Analysis
 
 This folder contains code and resources for simulating different system identification and analysis methods for an adaptive control scenario. The simulation scenarios included are:
