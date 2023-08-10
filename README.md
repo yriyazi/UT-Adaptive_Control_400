@@ -13,10 +13,6 @@ This folder contains code and resources for simulating different system identifi
 
 Contributions to this simulation repository are welcome! If you encounter issues or have ideas for improvements, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 
 # Simulation2: Advanced Control Strategies
 
@@ -31,9 +27,7 @@ This folder contains code and resources for exploring advanced control strategie
 
 Contributions to this simulation repository are encouraged! If you encounter issues, have ideas for improvements, or want to add more advanced control scenarios, feel free to open an issue or submit a pull request.
 
-## License
 
-This simulation code is available under the [MIT License](LICENSE) to encourage collaboration and knowledge sharing.
 
 
 # Simulation3: Advanced Controllers for Adaptive Control
@@ -50,9 +44,6 @@ This folder contains code and resources for exploring advanced control strategie
 
 Contributions to this simulation repository are highly appreciated! If you encounter issues, have ideas for improvements, or wish to add more advanced control scenarios, please feel free to open an issue or submit a pull request.
 
-## License
-
-This simulation code is provided under the [MIT License](LICENSE) to promote collaboration and knowledge sharing.
 
 
 # Simulation4: Advanced Control Strategies for Challenging Systems
@@ -69,9 +60,6 @@ This folder contains code and resources for exploring advanced control strategie
 
 Contributions to this simulation repository are highly appreciated! If you encounter issues, have ideas for improvements, or wish to add more advanced control scenarios, feel free to open an issue or submit a pull request.
 
-## License
-
-This simulation code is provided under the [MIT License](LICENSE) to promote collaboration and knowledge sharing.
 
 
 # Simulation5: Fluid Level Control Using Gradient and Lyapunov Methods
