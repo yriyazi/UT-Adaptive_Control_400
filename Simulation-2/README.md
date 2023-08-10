@@ -23,12 +23,6 @@ Un-minimum phase systems present unique challenges due to their inherent instabi
 
 Continuous systems, characterized by continuous-time dynamics, require specialized control strategies. This simulation scenario covers the application of Self-Tuning Regulators (STR) to continuous systems. The code showcases how to adapt STR algorithms for continuous systems, ensuring stable and effective control performance.
 
-## Usage
-
-1. Navigate to the desired simulation directory: `cd Simulation2`
-2. Explore the code and resources for each advanced control scenario.
-3. Run the simulation code: `python pole_placement.py` (replace with the appropriate filename)
-
 Follow the instructions provided within each scenario's folder to set up and run the simulations.
 
 ## Contributing

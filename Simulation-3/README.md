@@ -18,11 +18,6 @@ The Minimum Variance Controller (MV) is a control strategy aimed at minimizing t
 
 The Moving Average Controller (MA) is a simple yet effective control strategy that computes control signals based on the moving average of past error values. In this simulation, we explore the application of the MA controller in an adaptive control context. The code provided demonstrates how to implement the MA controller and utilize it to stabilize and control a system.
 
-## Usage
-
-1. Navigate to the desired simulation directory: `cd Simulation3`
-2. Review the code and resources for each advanced control scenario.
-3. Run the simulation code: `python self_tuning_regulators.py` (replace with the appropriate filename)
 
 Refer to the instructions within each scenario's folder for detailed guidance on setting up and running the simulations.
 

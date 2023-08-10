@@ -28,12 +28,6 @@ The Kalman filter is a powerful tool for estimating the state of a dynamic syste
 
 Many real-world systems exhibit nonlinear behavior. This simulation focuses on identifying the parameters of a nonlinear system. Nonlinear system identification is crucial for accurately modeling and controlling complex systems. The code provided demonstrates techniques to identify the parameters of a nonlinear system in an adaptive control context.
 
-## Usage
-
-1. Navigate to the desired simulation directory: `cd Simulation1`
-2. Review the code and resources for each identified scenario.
-3. Run the simulation code: `python offline_identification.py` (replace with the appropriate filename)
-
 Make sure to follow the specific instructions provided within each scenario's folder and adapt the code to your requirements.
 
 ## Contributing
