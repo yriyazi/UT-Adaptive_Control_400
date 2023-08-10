@@ -9,11 +9,6 @@ This folder contains code and resources for simulating different system identifi
 - Kalman Identification
 - Nonlinear System Identification
 
-## Contributing
-
-Contributions to this simulation repository are welcome! If you encounter issues or have ideas for improvements, feel free to open an issue or submit a pull request.
-
-
 # Simulation2: Advanced Control Strategies
 
 This folder contains code and resources for exploring advanced control strategies in an adaptive control context. The simulation scenarios included are:
@@ -23,13 +18,6 @@ This folder contains code and resources for exploring advanced control strategie
 - Self-Tuning Regulators (STR) for Un-minimum Phase Systems
 - Self-Tuning Regulators (STR) for Continuous Systems
 
-## Contributing
-
-Contributions to this simulation repository are encouraged! If you encounter issues, have ideas for improvements, or want to add more advanced control scenarios, feel free to open an issue or submit a pull request.
-
-
-
-
 # Simulation3: Advanced Controllers for Adaptive Control
 
 This folder contains code and resources for exploring advanced control strategies in an adaptive control context. The simulation scenarios included are:
@@ -38,14 +26,6 @@ This folder contains code and resources for exploring advanced control strategie
 - Minimum Variance Controller (MV)
 - Moving Average Controller (MA)
 
-
-
-## Contributing
-
-Contributions to this simulation repository are highly appreciated! If you encounter issues, have ideas for improvements, or wish to add more advanced control scenarios, please feel free to open an issue or submit a pull request.
-
-
-
 # Simulation4: Advanced Control Strategies for Challenging Systems
 
 This folder contains code and resources for exploring advanced control strategies in challenging control scenarios. The simulation scenarios included are:
@@ -53,14 +33,6 @@ This folder contains code and resources for exploring advanced control strategie
 - Pole Placement Controller for Delayed System
 - Model Predictive Controller (MPC) with a Fixed Structure
 - Adaptive Model Predictive Controller
-
-
-
-## Contributing
-
-Contributions to this simulation repository are highly appreciated! If you encounter issues, have ideas for improvements, or wish to add more advanced control scenarios, feel free to open an issue or submit a pull request.
-
-
 
 # Simulation5: Fluid Level Control Using Gradient and Lyapunov Methods
 
