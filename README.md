@@ -1,62 +1,141 @@
-# Adaptive Control Simulation
+# Simulation1: System Identification and Analysis
 
-This repository contains simulation code and resources for Adaptive Control simulations, specifically focusing on five different simulation scenarios (Simulation 1 to 5). Adaptive control is a branch of control theory that enables a system to adjust its control parameters based on real-time observations, allowing the system to adapt to changing conditions and uncertainties.
+This folder contains code and resources for simulating different system identification and analysis methods for an adaptive control scenario. The simulation scenarios included are:
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Simulations](#simulations)
-  - [Simulation 1](#simulation-1)
-  - [Simulation 2](#simulation-2)
-  - [Simulation 3](#simulation-3)
-  - [Simulation 4](#simulation-4)
-  - [Simulation 5](#simulation-5)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-Adaptive control plays a crucial role in controlling systems that exhibit uncertainties, disturbances, and varying dynamics. This repository aims to provide simulation implementations of different scenarios where adaptive control strategies can be applied to achieve robust and optimal control performance.
-
-## Simulations
-
-### Simulation 1
-
-_Description:_ In this simulation, we consider a simple inverted pendulum system. The adaptive control algorithm is applied to stabilize the pendulum in the upright position while accounting for varying pendulum lengths.
-
-### Simulation 2
-
-_Description:_ Simulation 2 involves a quadcopter drone model subjected to wind gusts and payload changes. The adaptive control system adjusts the drone's control parameters to maintain stable flight in the presence of disturbances.
-
-### Simulation 3
-
-_Description:_ This simulation focuses on a robotic arm with varying payload weights. The adaptive control strategy is employed to ensure accurate and smooth control of the robotic arm's end-effector position despite changing load conditions.
-
-### Simulation 4
-
-_Description:_ In Simulation 4, we explore a temperature control system for a chemical reactor. The adaptive control algorithm adapts to uncertain heat exchange coefficients and disturbances to maintain the reactor's temperature at a desired setpoint.
-
-### Simulation 5
-
-_Description:_ Simulation 5 involves an autonomous vehicle navigating through a dynamic urban environment. The adaptive control system adjusts the vehicle's trajectory to account for sudden obstacles and changes in traffic patterns.
+- Offline Identification of the System (Least Square Method)
+- Online Identification of the System (Recursive Least Square Method)
+- Feedback Effects Analysis
+- Kalman Identification
+- Nonlinear System Identification
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/your-username/adaptive-control-simulation.git`
-2. Navigate to the desired simulation directory: `cd simulation-X`
-3. Run the simulation code: `python simulation.py`
+1. Navigate to the desired simulation directory: `cd Simulation1`
+2. Explore the code and resources for each identified scenario.
+3. Run the simulation code: `python offline_identification.py` (replace with the appropriate filename)
 
-Make sure to have the required dependencies and libraries installed as specified in each simulation's documentation.
+Make sure to follow the specific instructions provided within each scenario's folder and adapt the code to your requirements.
 
 ## Contributing
 
-Contributions to this repository are welcome! If you find issues or have ideas for improving the simulations, please feel free to open an issue or submit a pull request.
+Contributions to this simulation repository are welcome! If you encounter issues or have ideas for improvements, feel free to open an issue or submit a pull request.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+```
 
----
+### Simulation2: Advanced Control Strategies
 
-Feel free to explore the simulations and adapt the code to your needs. If you encounter any issues or have suggestions, don't hesitate to contribute or reach out for assistance. Happy simulating!
+```markdown
+# Simulation2: Advanced Control Strategies
+
+This folder contains code and resources for exploring advanced control strategies in an adaptive control context. The simulation scenarios included are:
+
+- Pole Placement Dynamic Feedback
+- Self-Tuning Regulators (STR) for Minimum Phase Systems
+- Self-Tuning Regulators (STR) for Un-minimum Phase Systems
+- Self-Tuning Regulators (STR) for Continuous Systems
+
+## Usage
+
+1. Navigate to the desired simulation directory: `cd Simulation2`
+2. Review the code and resources for each advanced control scenario.
+3. Run the simulation code: `python pole_placement.py` (replace with the appropriate filename)
+
+Follow the instructions provided within each scenario's folder to set up and run the simulations.
+
+## Contributing
+
+Contributions to this simulation repository are encouraged! If you encounter issues, have ideas for improvements, or want to add more advanced control scenarios, feel free to open an issue or submit a pull request.
+
+## License
+
+This simulation code is available under the [MIT License](LICENSE) to encourage collaboration and knowledge sharing.
+```
+
+### Simulation3: Advanced Controllers for Adaptive Control
+
+```markdown
+# Simulation3: Advanced Controllers for Adaptive Control
+
+This folder contains code and resources for exploring advanced control strategies in an adaptive control context. The simulation scenarios included are:
+
+- Self-Tuning Regulators (STR)
+- Minimum Variance Controller (MV)
+- Moving Average Controller (MA)
+
+## Usage
+
+1. Navigate to the desired simulation directory: `cd Simulation3`
+2. Explore the code and resources for each advanced control scenario.
+3. Run the simulation code: `python self_tuning_regulators.py` (replace with the appropriate filename)
+
+Refer to the instructions within each scenario's folder for detailed guidance on setting up and running the simulations.
+
+## Contributing
+
+Contributions to this simulation repository are highly appreciated! If you encounter issues, have ideas for improvements, or wish to add more advanced control scenarios, please feel free to open an issue or submit a pull request.
+
+## License
+
+This simulation code is provided under the [MIT License](LICENSE) to promote collaboration and knowledge sharing.
+```
+
+### Simulation4: Advanced Control Strategies for Challenging Systems
+
+```markdown
+# Simulation4: Advanced Control Strategies for Challenging Systems
+
+This folder contains code and resources for exploring advanced control strategies in challenging control scenarios. The simulation scenarios included are:
+
+- Pole Placement Controller for Delayed System
+- Model Predictive Controller (MPC) with a Fixed Structure
+- Adaptive Model Predictive Controller
+
+## Usage
+
+1. Navigate to the desired simulation directory: `cd Simulation4`
+2. Explore the code and resources for each advanced control scenario.
+3. Run the simulation code: `python pole_placement_delayed.py` (replace with the appropriate filename)
+
+Follow the instructions within each scenario's folder for detailed guidance on setting up and running the simulations.
+
+## Contributing
+
+Contributions to this simulation repository are highly appreciated! If you encounter issues, have ideas for improvements, or wish to add more advanced control scenarios, feel free to open an issue or submit a pull request.
+
+## License
+
+This simulation code is provided under the [MIT License](LICENSE) to promote collaboration and knowledge sharing.
+```
+
+### Simulation5: Fluid Level Control Using Gradient and Lyapunov Methods
+
+```markdown
+# Simulation5: Fluid Level Control Using Gradient and Lyapunov Methods
+
+This folder contains code and resources for simulating fluid level control using Gradient and Lyapunov methods. The simulation scenarios included are:
+
+- MIT Method for Fluid Level Control
+- Normalized MIT Method for Fluid Level Control
+- Model Reference Adaptive System (MRAS) for Fluid Level Control
+
+## Usage
+
+1. Navigate to the desired simulation directory: `cd Simulation5`
+2. Review the code and resources for each fluid level control scenario.
+3. Run the simulation code: `python mit_method.py` (replace with the appropriate filename)
+
+Refer to the instructions within each scenario's folder for detailed guidance on setting up and running the simulations.
+
+## Contributing
+
+Contributions to this simulation repository are highly appreciated! If you encounter issues, have ideas for improvements, or wish to add more fluid level control scenarios, feel free to open an issue or submit a pull request.
+
+## License
+
+This simulation code is provided under the [MIT License](LICENSE) to promote collaboration and knowledge sharing.
+```
+
+Feel free to copy and paste the corresponding README content for each of your Simulation folders. Just make sure to replace any placeholders like `python filename.py` with the actual filenames and adapt the content to match your project structure and goals.
